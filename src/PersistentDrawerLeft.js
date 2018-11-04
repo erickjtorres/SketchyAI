@@ -125,7 +125,7 @@ class PersistentDrawerLeft extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" noWrap>
-              Epoch
+              SketchyAI
             </Typography>
           </Toolbar>
         </AppBar>

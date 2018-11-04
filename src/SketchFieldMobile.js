@@ -10,6 +10,7 @@ class SketchFieldMobile extends Component {
         axios.post('http://192.168.128.105:5000/updateUI', {
             foo: this.sketch.current.toDataURL()
         });
+
         console.log(this.sketch.current.toDataURL());
       }
 
@@ -22,7 +23,7 @@ class SketchFieldMobile extends Component {
            <SketchField 
            ref={this.sketch}
            style={{
-          position: 'absolute', left: '60%', top: '50%',
+          position: 'absolute', left: '50%', top: '50%',
           transform: 'translate(-50%, -50%)'
           }} 
                         className="Field"
