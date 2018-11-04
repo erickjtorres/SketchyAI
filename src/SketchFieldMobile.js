@@ -7,7 +7,7 @@ class SketchFieldMobile extends Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
 
-        axios.post('http://ced9be81.ngrok.io/', {
+        axios.post('http://ced9be81.ngrok.io/updateUI', {
             foo: this.sketch.current.toDataURL()
         });
 

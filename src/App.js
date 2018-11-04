@@ -7,6 +7,7 @@ import PersistentDrawerLeft from './PersistentDrawerLeft'
 // import Paper from '@material-ui/core/Paper';
 import BodyBackgroundColor from 'react-body-backgroundcolor'
 import Login from './login'
+import FloatingActionButtonZoom from './FloatingActionButtonZoom'
 
 
 
@@ -65,6 +66,7 @@ class App extends Component {
   
         </Grid>
         </BodyBackgroundColor>
+        <FloatingActionButtonZoom></FloatingActionButtonZoom>
       </div>
     )
   }
