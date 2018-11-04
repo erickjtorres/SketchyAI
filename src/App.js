@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import PersistentDrawerLeft from './PersistentDrawerLeft'
 // import Paper from '@material-ui/core/Paper';
 import BodyBackgroundColor from 'react-body-backgroundcolor'
+import Login from './login'
 
 
 
@@ -54,6 +55,7 @@ class App extends Component {
     return (
     
       <div className="App">
+        <Login />
         <BodyBackgroundColor backgroundColor =  '#343D46'>
         <Grid container spacing={24}>
          
