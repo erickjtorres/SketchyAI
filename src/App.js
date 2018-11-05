@@ -1,10 +1,7 @@
 import React, { Component} from 'react';
-// import {SketchField, Tools} from 'react-sketch';
 import SketchFieldMobile from './SketchFieldMobile';
-// import AppBarEdit from './AppBar';
 import Grid from '@material-ui/core/Grid';
 import PersistentDrawerLeft from './PersistentDrawerLeft'
-// import Paper from '@material-ui/core/Paper';
 import BodyBackgroundColor from 'react-body-backgroundcolor'
 import Login from './login'
 import FloatingActionButtonZoom from './FloatingActionButtonZoom'
@@ -13,12 +10,14 @@ import FloatingActionButtonZoom from './FloatingActionButtonZoom'
 
 class App extends Component {
 
+  //The initial state of the application
   state = {
     linecolor: 'blue',
     lineWidth: 4,
     add: 0
   }
 
+//Functions to edit the state
   changeColor = (color) => {
     this.setState({
       linecolor : color,
@@ -33,6 +32,7 @@ class App extends Component {
     })
   }
 
+  //A hacky way to add eventListeners and output and image
   handle_this = () => {
     let newnumb = 0;
     if(this.state.add === 0) {
@@ -47,6 +47,7 @@ class App extends Component {
     })
   }
 
+  //Adds the event listener
   componentDidMount = function () {
     document.body.addEventListener('click', this.handle_this);
 }

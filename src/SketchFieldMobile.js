@@ -5,9 +5,11 @@ import axios from 'axios';
 class SketchFieldMobile extends Component {
     sketch = React.createRef();
 
+
+    // Will run the function after the state of a component changes
     componentDidUpdate(prevProps, prevState, snapshot) {
 
-        axios.post('https://15e03361.ngrok.io/updateUI', {
+        axios.post('https://cbd56919.ngrok.io/updateUI', {
             foo: this.sketch.current.toDataURL()
         });
 
