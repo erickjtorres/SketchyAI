@@ -17,4 +17,4 @@ The piece of software is able to turn a simple UI drawing into an entire mobile 
 - Flask
 - Firebase
 
-[Preview](images/reactapp.jpg)
+![Preview](images/reactapp.jpg)
