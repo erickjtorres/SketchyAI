@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "256284788325",
+    "firebase_url": "https://vandyhacks-f3732.firebaseio.com",
+    "project_id": "vandyhacks-f3732",
+    "storage_bucket": "vandyhacks-f3732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256284788325:android:4c3e60bcdaef04c9",
+        "android_client_info": {
+          "package_name": "com.example.vandyhacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256284788325-gpiseallruokgeassvmmtmttglbk5848.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxQsENLUop40wyCohntBsfHXsTrLIuUgc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
